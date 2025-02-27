@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 27 21:34:58 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>128 seconds (128532 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demoqa.test.elements.WebTablesTest.TC005()'><b>TC005</b><br>Test class: com.demoqa.test.elements.WebTablesTest<br>Test method: TC005: Verify that a user can add, edit, and delete records in the table.</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.test.elements.WebTablesTest@3dfbe5ed</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.RadioButtonTest.TC004()'><b>TC004</b><br>Test class: com.demoqa.test.elements.RadioButtonTest<br>Test method: TC004: Verify Radio Button selected state after selecting any of the radio button.</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.test.elements.RadioButtonTest@6fa871ce</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.BrokenLinkImageTest.TC010()'><b>TC010</b><br>Test class: com.demoqa.test.elements.BrokenLinkImageTest<br>Test method: TC010: Verify that both broken and non-broken images are correctly identified on the page.</td>
+<td></td>
+<td>4</td>
+<td>com.demoqa.test.elements.BrokenLinkImageTest@715b9490</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.TextBoxTest.TC001()'><b>TC001</b><br>Test class: com.demoqa.test.elements.TextBoxTest<br>Test method: TC001: Verify functionality of the text box.</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.test.elements.TextBoxTest@320d7ef5</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.WebTablesTest.TC006()'><b>TC006</b><br>Test class: com.demoqa.test.elements.WebTablesTest<br>Test method: TC006: Verify that the search and reset functionalities work correctly.</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.test.elements.WebTablesTest@3dfbe5ed</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.LinkTest.TC009()'><b>TC009</b><br>Test class: com.demoqa.test.elements.LinkTest<br>Test method: TC009: Verify that navigation links open correctly and API links send the correct response.</td>
+<td></td>
+<td>40</td>
+<td>com.demoqa.test.elements.LinkTest@883627f</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.BrokenLinkImageTest.TC011()'><b>TC011</b><br>Test class: com.demoqa.test.elements.BrokenLinkImageTest<br>Test method: TC011: Verify that the valid link redirects to the correct page and the broken link results in an error page.</td>
+<td></td>
+<td>5</td>
+<td>com.demoqa.test.elements.BrokenLinkImageTest@715b9490</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.WebTablesTest.TC007()'><b>TC007</b><br>Test class: com.demoqa.test.elements.WebTablesTest<br>Test method: TC007: Verify that sorting works correctly.</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.test.elements.WebTablesTest@3dfbe5ed</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.CheckBoxTest.TC003()'><b>TC003</b><br>Test class: com.demoqa.test.elements.CheckBoxTest<br>Test method: TC003: Verify checkbox state changes correctly after pressing checking/unchecking.</td>
+<td></td>
+<td>0</td>
+<td>com.demoqa.test.elements.CheckBoxTest@17295a34</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.UploadAndDownloadTest.TC013()'><b>TC013</b><br>Test class: com.demoqa.test.elements.UploadAndDownloadTest<br>Test method: TC013: Validate that a user can successfully upload a file on the DemoQA upload page.</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.test.elements.UploadAndDownloadTest@11f1c01c</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.CheckBoxTest.TC002()'><b>TC002</b><br>Test class: com.demoqa.test.elements.CheckBoxTest<br>Test method: TC002: Verify selecting and deselecting checkboxes after pressing the expand/collapse button.</td>
+<td></td>
+<td>3</td>
+<td>com.demoqa.test.elements.CheckBoxTest@17295a34</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.ButtonTest.TC008()'><b>TC008</b><br>Test class: com.demoqa.test.elements.ButtonTest<br>Test method: TC008: Verify that Right Click, Double Click and Single Click works correctly.</td>
+<td></td>
+<td>1</td>
+<td>com.demoqa.test.elements.ButtonTest@3a7ba6ff</td></tr>
+<tr>
+<td title='com.demoqa.test.elements.UploadAndDownloadTest.TC012()'><b>TC012</b><br>Test class: com.demoqa.test.elements.UploadAndDownloadTest<br>Test method: TC012: Validate that a user can successfully download a file from the DemoQA download page.</td>
+<td></td>
+<td>8</td>
+<td>com.demoqa.test.elements.UploadAndDownloadTest@11f1c01c</td></tr>
+</table><p>
+</body>
+</html>

@@ -16,7 +16,7 @@ import static com.demoqa.pages.BasePage.delay;
 import static utilities.Utilities.setUtilityDriver;
 
 public class BaseTest {
-    private WebDriver driver;
+    protected WebDriver driver;
     protected BasePage basePage;
     protected HomePage homePage;
     protected ElementsPage elementsPage;
